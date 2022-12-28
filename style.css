@@ -376,4 +376,14 @@ font-weight: 600;
         order: 2;
     }
 
+    section{
+        padding: 100px 7%;
+    }
+
+}
+
+@media(max-width:575px){
+    .col{
+        width: 100%;
+    }
 }

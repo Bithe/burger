@@ -339,6 +339,14 @@ font-weight: 600;
         flex-direction: column;
         text-align: center;
         background: #2b2640;
+        transition: .3s;
 
+    }
+
+    header .navbar.active{
+        top: 70px;
+    }
+    .navbar a{
+        padding: 1.5rem;
     }
 }

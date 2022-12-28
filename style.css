@@ -312,3 +312,25 @@ font-weight: 600;
 }
 
 
+@media(max-width:1560px){
+    header{
+        padding: 15px 40px;
+    }
+    :root{
+        --big-font:3.5rem;
+        --h2-font:2rem;
+    }
+}
+
+
+@media(max-width:1140px){
+
+    section{
+        padding: initial;
+        color: var(--text-color);
+    }
+
+    header .navbar{
+position: absolute;
+    }
+}

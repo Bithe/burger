@@ -246,6 +246,7 @@ font-weight: 600;
 .footer{
     padding: 10px 0 ;
 }
+
 .col{
     width: 25%;
 }
@@ -257,7 +258,7 @@ font-weight: 600;
     position: relative;
 }
 
-.col h4{
+.col h4::before{
     content: "";
     position: absolute;
     height: 2px;
@@ -309,3 +310,5 @@ font-weight: 600;
     color: var(--bg-color);
     background: var(--text-color);
 }
+
+

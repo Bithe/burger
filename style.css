@@ -244,5 +244,8 @@ font-weight: 600;
 }
 
 .footer{
-    padding: ;
+    padding: 10px 0 ;
+}
+.col{
+    width: 25%;
 }

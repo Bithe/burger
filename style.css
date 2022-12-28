@@ -231,3 +231,9 @@ font-weight: 600;
     margin: 100px auto;
     border-radius: 10px;
 }
+
+.cta h2{
+    font-size: 2rem;
+    color: var(--bg-color);
+    margin-bottom: 30px;
+}
